@@ -48,7 +48,7 @@ const init = async () => {
        const admin_user = await reg_model.create({
             name: 'Safar',
             email: 'ADMIN@GMAIL.COM',
-            password: bcryptjs.hashSync("admin@123", 8),
+            password: bcryptjs.hashSync("admin@1234", 8),
             mobNum : 1234567890,
             userType: 'ADMIN'
 
